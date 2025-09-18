@@ -1,0 +1,11 @@
+# ignore node_modules and build outputs for frontend
+/frontend/node_modules
+/frontend/dist
+/frontend/build
+
+# general
+node_modules
+.env
+.git
+.gitignore
+*.log
