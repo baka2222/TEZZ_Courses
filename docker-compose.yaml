@@ -30,13 +30,13 @@ services:
     environment:
       - DJANGO_SETTINGS_MODULE=backend.settings
       - DB_HOST=db
-      - DB_NAME=teztez
-      - DB_USER=teztez
-      - DB_PASS=teztez
+      - DB_NAME=h
+      - DB_USER=n
+      - DB_PASS=b
       - DB_PORT=5432
-      - DJANGO_SUPERUSER_USERNAME=baka123
-      - DJANGO_SUPERUSER_EMAIL=ikaoss222@gmail.com
-      - DJANGO_SUPERUSER_PASSWORD=7532169
+      - DJANGO_SUPERUSER_USERNAME=m
+      - DJANGO_SUPERUSER_EMAIL=g
+      - DJANGO_SUPERUSER_PASSWORD=j
     depends_on:
       - db
 
@@ -52,9 +52,9 @@ services:
     environment:
       - DJANGO_SETTINGS_MODULE=backend.settings
       - DB_HOST=db
-      - DB_NAME=teztez
-      - DB_USER=teztez
-      - DB_PASS=teztez
+      - DB_NAME=h
+      - DB_USER=h
+      - DB_PASS=h
       - DB_PORT=5432
       - BOT_TOKEN=${BOT_TOKEN}
     depends_on:
